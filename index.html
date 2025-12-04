@@ -192,6 +192,44 @@
         .social-icons a:hover {
             color: var(--secondary);
         }
+
+        /* Vídeos */
+        .gallery-item video {
+            border-radius: 10px;
+        }
+
+        /* Box Instagram */
+        .instagram-box {
+            margin: 20px auto;
+            padding: 15px 20px;
+            max-width: 500px;
+            border-radius: 12px;
+            background: #f1f1f1;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+            margin-top: -40px;
+        }
+
+        .instagram-box p {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .instagram-box a {
+            font-size: 20px;
+            color: #e1306c;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        /* Hero icon */
+        .hero-icon {
+            font-size: 4rem;
+            color: white;
+            margin-bottom: 2rem;
+            display: block;
+        }
         
         /* Responsividade */
         @media (max-width: 768px) {
@@ -237,6 +275,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-9 ">
+                    <i class="fas fa-puzzle-piece hero-icon"></i>
                     <h1>Sipalki-do AMK SAJA</h1>
                     <p>Artes marciais para todos, com uma metodologia adaptada para diferentes perfis e formas de aprendizagem.</p>
                     <!--<a href="#contact" class="btn btn-light btn-lg">Agende uma aula experimental</a>-->
@@ -380,14 +419,14 @@
         </div>
     </section>
 
-    <!-- Galeria -->
+    <!-- Videos  -->
     <section class="section" id="gallery">
         <div class="container">
             <h2 class="section-title">Nossa Academia</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="gallery-item">
-                        <video width="100%" height="400" controls style="border-radius: 10px;">
+                        <video width="100%" height="400" controls>
                             <source src="imagens/StorySaver.net-amk.saja-Video-1764855506019.mp4" type="video/mp4">
                             Seu navegador não suporta o elemento de vídeo.
                         </video>
@@ -395,7 +434,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="gallery-item">
-                        <video width="100%" height="400" controls style="border-radius: 10px;">
+                        <video width="100%" height="400" controls>
                             <source src="imagens/StorySaver.net-amk.saja-Video-1764856204183.mp4" type="video/mp4">
                             Seu navegador não suporta o elemento de vídeo.
                         </video>
@@ -403,7 +442,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="gallery-item">
-                        <video width="100%" height="400" controls style="border-radius: 10px;">
+                        <video width="100%" height="400" controls>
                             <source src="imagens/StorySaver.net-amk.saja-Video-1764856518716.mp4" type="video/mp4">
                             Seu navegador não suporta o elemento de vídeo.
                         </video>
@@ -412,6 +451,16 @@
             </div>
         </div>
     </section>
+
+    <div class="instagram-box">
+        <p>
+            Veja mais em nosso Instagram
+        </p>
+        <a href="https://www.instagram.com/amk.saja/" target="_blank">
+            @amk.saja
+        </a>
+    </div>
+
 
     <!-- Footer -->
     <footer>
